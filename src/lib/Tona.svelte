@@ -15,9 +15,10 @@
     const ctx = canvas.getContext('2d', { willReadFrequently: true });
 
     video = document.createElement('video');
-    video.src = './weaving.mp4';
+    video.src = 'https://kolown.net/assets/weaving.mp4';
     video.loop = true;
     video.muted = true;
+    video.crossOrigin = 'anonymous';
     video.play();
 
     const worker = new MyWorker();
