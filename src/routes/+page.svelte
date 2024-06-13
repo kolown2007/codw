@@ -6,7 +6,7 @@
   import Mona from "$lib/Mona.svelte";
   import Recycle from "$lib/Recycle.svelte";
   import Tona from "$lib/Tona.svelte";
-  import WebGpu from "$lib/WebGpu.svelte";
+  // import WebGpu from "$lib/WebGpu.svelte";
 
 </script>
 
